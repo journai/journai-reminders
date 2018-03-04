@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "pm2 start ./bin/www --name='reminders' --watch -o ./logs/reminders-out.log -e ./logs/reminders-err.log"
+    "start": "pm2-runtime ./bin/www --name='reminders' --watch -o ./logs/reminders-out.log -e ./logs/reminders-err.log"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
